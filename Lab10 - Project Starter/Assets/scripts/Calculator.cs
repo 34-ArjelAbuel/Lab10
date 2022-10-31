@@ -42,7 +42,6 @@ public class Calculator : MonoBehaviour {
                 case "√":
                 case "P":
 
-
                 Calculate(s);
 				break;
 			case "ce":
