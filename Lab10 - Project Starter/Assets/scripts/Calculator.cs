@@ -40,7 +40,7 @@ public class Calculator : MonoBehaviour {
 				case "*":
 				case "=":
                 case "√":
-            case "P":
+                case "P":
 
 
                 Calculate(s);

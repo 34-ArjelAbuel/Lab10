@@ -43,6 +43,12 @@ namespace Tests
             result = Calculator.CalculatePair(9, 0, "√");
             Assert.AreEqual(result, 3);
         }
+        [Test]
+        public void TestPower()
+        {
+            result = Calculator.CalculatePair(3, 0, "P");
+            Assert.AreEqual(result, 9);
+        }
 
 
 
@@ -88,6 +94,13 @@ namespace Tests
             yield return null;
             result = Calculator.CalculatePair(9,0, "√");
             Assert.AreEqual(result, 3);
+        }
+        [UnityTest]
+        public IEnumerator TestUnityPower()
+        {
+            yield return null;
+            result = Calculator.CalculatePair(3, 0, "P");
+            Assert.AreEqual(result, 9);
         }
     }
 }
